@@ -1,0 +1,68 @@
+/* 
+Written by Ham5andw1ch
+
+Monokai Classic theme for Obsidian
+
+*/
+.theme-dark
+{
+
+    --dark-black: #1D1E19;
+    --grey: #525254;
+
+    --black:   #272822;
+    --red:     #f92672;
+    --green:   #a6e22e;
+    --yellow:  #f4bf75;
+    --blue:    #a1efe4;
+    --magenta: #ae81ff;
+    --cyan:    #66d9ef;
+    --white:   #f8f8f2;
+
+    --bright-black:   #414338;
+    --bright-red:     #ff1e8e;
+    --bright-green:   #ddff2a;
+    --bright-yellow:  #fffc80;
+    --bright-blue:    #b3ffff;
+    --bright-magenta: #db8eff;
+    --bright-cyan:    #6effff;
+    --bright-white:   #fffffb;
+
+    --background-primary: var(--black);
+
+    --background-primary-alt:   var(--dark-black);
+    --background-secondary:     var(--dark-black);
+    --background-secondary-alt: var(--black);
+    
+    --text-normal: var(--white);
+    --text-muted: var(--white);
+    --text-faint: var(--grey);
+
+    --interactive-accent: var(--cyan);
+    --interactive-before: var(--cyan);
+    --text-link: var(--green);
+    --text-accent: var(--magenta);
+    --text-accent-hover: var(--bright-magenta);
+    --text-highlight-bg: var(--bright-black);
+    --interactive-accent-rgb: 107,217,239;
+    --text-selection: var(--bright-black);
+    --interactive-normal: var(--black);
+    --interactive-hover: var(--dark-black);
+    --background-modifier-border: var(--grey);
+    
+    --font-family-editor: 'Hack';
+    --font-family-preview: 'Roboto Condensed';
+}
+.markdown-source-view {
+    font-family: 'Hack';
+    font-size: 0.85em;
+}
+body {
+    font-family: 'Roboto Condensed';
+}
+.cm-fat-cursor .CodeMirror-cursor {
+  background: var(--white);
+}
+.cm-animate-fat-cursor {
+    background-color: var(--white);
+}
